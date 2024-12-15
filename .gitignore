@@ -1,1 +1,7 @@
-/bin/
+/bin/*
+
+.gitignore
+
+test-output/old/Suite
+
+test-output/*
