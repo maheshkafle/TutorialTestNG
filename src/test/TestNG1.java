@@ -15,5 +15,11 @@ public class TestNG1
 	{
 		System.out.println("Hello");
 	}
+	
+	@Test
+	public void SayGoodBye()
+	{
+		System.out.println("Good Bye my hero!");
+	}
 
 }
