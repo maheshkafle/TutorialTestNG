@@ -6,7 +6,7 @@ public class TestNG2
 
 {
 	@Test
-	public void Hi()
+	public void Hithere()
 	{
 		System.out.println("Hi There!");
 	}
