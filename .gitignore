@@ -1,7 +1,15 @@
 /bin/*
 
+/bin/
+
 .gitignore
 
-test-output/old/Suite
+test-output/junitreports/
 
-test-output/*
+test-output/old/
+
+test-output/old/Suite/
+
+test-output/Suite/
+
+test-output/
