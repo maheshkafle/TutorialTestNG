@@ -6,6 +6,7 @@
 	  <classes>
 		  <class name="test.TestNG1">
 		  	<methods>
+				<!-- <include name = "SayGoodBye"/>-->
 				<exclude name = "Demo"/>
 			</methods> 
 		  </class>
