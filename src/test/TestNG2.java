@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -20,7 +21,7 @@ public class TestNG2
 		System.out.println("HiDubai!");
 	}
 	
-	@Test
+	@Test(groups={"smoke"})
 	public void HiUAE()
 	{
 		System.out.println("HiUAE!");
@@ -41,6 +42,12 @@ public class TestNG2
 	@AfterTest
 	public void RunsItAfterAllOtherTests()
 	{
-		System.out.println("This method is executed each time after a Test gets called");
+		System.out.println("This method is executed after a Test gets called");
+	}
+	
+	@AfterMethod
+	public void AFterEvery()
+	{
+		System.out.println("I will execute after each and every tests in this class");
 	}
 }
