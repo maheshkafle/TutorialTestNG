@@ -12,13 +12,13 @@ public class TestNG1
 	
 
 //	}
-	@Test
+	@Test(groups={"smoke"})
 	public void Demo()
 	{
 		System.out.println("Hello");
 	}
 	
-	@Test
+	@Test(groups={"smoke"})
 	public void SayGoodBye()
 	{
 		System.out.println("Good Bye my hero!");
